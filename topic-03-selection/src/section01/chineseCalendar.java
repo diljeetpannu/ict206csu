@@ -53,3 +53,4 @@ public class chineseCalendar {
             System.out.println("Your Zodiac Sign is " + zodiacSign);
         }
     }
+}
