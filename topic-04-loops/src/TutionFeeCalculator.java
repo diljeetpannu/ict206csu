@@ -1,4 +1,3 @@
-package section01;
 
 public class TutionFeeCalculator {
 
