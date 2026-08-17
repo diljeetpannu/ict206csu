@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class max {
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int ageCousin1 = scanner.nextInt();
         int ageCousin2 = scanner.nextInt();
@@ -12,7 +12,7 @@ public class max {
         driveCar(result);
     }
 
-    private static int max(int i, int j) {
+    public int max(int i, int j) {
         if (i > j) {
             // System.out.println(i + " is greater than " + j);
             return i;
@@ -22,7 +22,7 @@ public class max {
         }
     }
 
-    public static void driveCar(int age) {
+    public void driveCar(int age) {
         age = 20;
         if (age >= 18) {
             System.out.println("You can drive a car because you are " + age + " years old.");
