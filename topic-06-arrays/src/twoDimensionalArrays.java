@@ -2,7 +2,7 @@ public class twoDimensionalArrays {
     public static void main(String[] args) {
         int[][] seats = new int[3][4];
 
-        
+        // convert this to the ticketing system
         seats[0][0] = 1;
         seats[0][1] = 2;
         seats[0][2] = 3;
